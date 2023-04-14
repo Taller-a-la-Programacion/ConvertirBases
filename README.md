@@ -86,24 +86,6 @@ Opciones:
 7: Base 2 a Decimal
 8: Base 3 a Decimal
 9: Base 4 a Decimal
-Digite una opción: 5
-Digite el valor a convertir: 7000
-'1B58'
-
-
->>> convertirBase()
-===========================
-Bienvenido a Convertidor   
-===========================
-Opciones:
-2: Decimal a Base 2
-3: Decimal a Base 3
-4: Decimal a Base 4
-5: Decimal a Hexadecimal
-6: Hexadecimal a Decimal
-7: Base 2 a Decimal
-8: Base 3 a Decimal
-9: Base 4 a Decimal
 Digite una opción: 6
 Digite el valor a convertir: 1B58
 7000
