@@ -1,38 +1,127 @@
-# 2023 S1 Laboratorio 5
+# Convertir Bases Numéricas
 
 ## Instrucciones Generales
-- El archivo **debe** llamarse **Laboratorio5.py**
-- Debe realizar la siguiente función con recursión de cola
+- El archivo **debe** llamarse **Laboratorio6.py**
 - No olvidar los comentarios
 
 
-## Ejercicio 1. Valor 10 puntos.
-Escriba una función sumaImparesPares (lista1 , lista2) que reciba dos lista de números, y retorne una lista que contenga la suma de las posiciones pares de las dos listas de la misma manera con las posiciones impares. No puede usar len (), solo puede recorrer la lista una vez. La función debe comportarse de la siguiente manera:
+- Realice un programa en python similar a convertirdor de temperaturas, pero en este caso a convertir de una base numérica a otra.
+- Las opciones a recibir son:
+  - 2: Decimal a Base 2
+  - 3: Decimal a Base 3
+  - 4: Decimal a Base 4
+  - 5: Decimal a Hexadecimal
+  - 6: Hexadecimal a Decimal
+  - 7: Base 2 a Decimal
+  - 8: Base 3 a Decimal
+  - 9: Base 4 a Decimal
+
+### Restricciones
+- El valor para la selección de las opciones será un caracter desde 2 a 9, este puede ser en string o int.
+- El valor del numero a convertir deberá ser entero o string en el caso de ser hexadecimal
 
 ```python
->>> sumaImparesPares([0,2,3,4], [4, 8, 6, 0])
-[13, 14]
->>> sumaImparesPares([10, 0], [100, 2])
-[110, 2]
- >>> sumaImparesPares([1,2], "dos")
- "Error: segundo argumento debe ser entero"
- ```
+>>> convertirBase()
 
-## Ejercicio 2. Valor 10 puntos.
-Escriba una función llamada **eliminarElemento** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y otra variable llamdo **elemento**, y eliminar si este elemento de esta lista. Hacer uso de la iteración y evitar funciones built-in.
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 2
+Digite el valor a convertir: 7
+111
 
-```python
->>> eliminarElemento( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , 12 )
-[78, 0, 5.2, "abc", 0, 5.2]
->>> eliminarElemento( [12, 5.2, 12], 5 )
-[12, 5.2, 12]
-```
-## Ejercicio 3. Valor 10 puntos.
-Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y otra lista con los elementos. Hacer uso de la iteración y evitar funciones built-in.
+>>> convertirBase()
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 3
+Digite el valor a convertir: 7
+21
 
-```python
->>> eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , [12, 5.2, 0])
-[78, "abc"]
->>> eliminarRepetidos( [12, 5.2, 12], [12] )
-[5.2]
+>>> convertirBase()
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 5
+Digite el valor a convertir: 7000
+'1B58'
+
+>>> convertirBase()
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 5
+Digite el valor a convertir: 7000
+'1B58'
+
+
+>>> convertirBase()
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 6
+Digite el valor a convertir: 1B58
+7000
+
+>>> convertirBase()
+===========================
+Bienvenido a Convertidor   
+===========================
+Opciones:
+2: Decimal a Base 2
+3: Decimal a Base 3
+4: Decimal a Base 4
+5: Decimal a Hexadecimal
+6: Hexadecimal a Decimal
+7: Base 2 a Decimal
+8: Base 3 a Decimal
+9: Base 4 a Decimal
+Digite una opción: 8
+Digite el valor a convertir: 21
+7
 ```
